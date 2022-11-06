@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Lora";
+  src: url('/fonts/Lora-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: "Odalisque";
+  src: url('/fonts/Odalisque-Deco.ttf');
+}
+body {
+  background: url('video.png');
+  background-size: cover;
+}
+a {
+  text-decoration:none;
+  color: #fff;
+}
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+.content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Odalisque";
+}
+.main {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lora";
+}
+
+.txt {
+  font-size: 17px;
+  max-width: 550px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+.name {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 130%;
+  text-align: center;
+  font-family: bold "Odalisque";
+  color: rgb(210, 226, 255);
+  text-shadow:
+    0 0 7px rgb(174, 206, 253),
+    0 0 10px rgb(186, 207, 252),
+    0 0 21px rgb(168, 198, 255),
+    0 0 42px rgb(125, 192, 255),
+    0 0 82px rgb(85, 165, 255),
+    0 0 92px rgb(0, 119, 255),
+    0 0 102px rgb(0, 162, 255),
+    0 0 151px rgb(248, 250, 255);
+}
+.soc {
+text-align: center;
+margin-bottom: 50px;
+margin-top: -50px;
+}
+.links {
+  color: rgb(210, 226, 255);
+  font-family: "Odalisque";
+  display: flex;
+  text-shadow:
+  0 0 7px rgb(174, 206, 253),
+  0 0 10px rgb(186, 207, 252),
+  0 0 21px rgb(168, 198, 255),
+  0 0 42px rgb(125, 192, 255),
+  0 0 82px rgb(85, 165, 255),
+  0 0 92px rgb(0, 119, 255),
+  0 0 102px rgb(0, 162, 255),
+  0 0 151px rgb(248, 250, 255);
+  font-size: 20px;
+  display: inline-block;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+
+.wrapper {
+    text-align: center;
+}
