@@ -38,6 +38,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   font-family: "Lora";
+
 }
 
 .txt {
@@ -46,14 +47,22 @@ a {
   margin: auto;
   color: #fff;
   text-align: center;
+  background-color: rgba(179, 220, 253, 0.5);
+  border-radius: 80px;
+  padding-bottom: 20px;
 }
+p {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
 .name {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 76px;
   line-height: 130%;
   text-align: center;
   font-family: bold "Odalisque";
-  color: rgb(210, 226, 255);
+  color: rgb(180, 206, 255);
   text-shadow:
     0 0 7px rgb(174, 206, 253),
     0 0 10px rgb(186, 207, 252),
@@ -70,9 +79,14 @@ margin-bottom: 50px;
 margin-top: -50px;
 }
 .links {
-  color: rgb(210, 226, 255);
+  color: rgb(180, 206, 255);
   font-family: "Odalisque";
-  display: flex;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: center;
+  opacity: 0.8;
+  background-color: rgba(0, 98, 211, 0.5);
+  border-radius: 500px;
   text-shadow:
   0 0 7px rgb(174, 206, 253),
   0 0 10px rgb(186, 207, 252),
@@ -82,13 +96,47 @@ margin-top: -50px;
   0 0 92px rgb(0, 119, 255),
   0 0 102px rgb(0, 162, 255),
   0 0 151px rgb(248, 250, 255);
-  font-size: 20px;
-  display: inline-block;
-  justify-content: center;
-  opacity: 0.8;
 }
+.footer {
+background: rgb(255, 255, 255, 0.5);
+margin-top: 350px;
+padding-top: 20px;
+padding-bottom: 2000px;
+}
+h3 {
+  font-family: "Odalisque";
+  text-align: center;
+  color: #fff;
+  text-shadow:
+  0 0 7px rgb(174, 206, 253),
+  0 0 10px rgb(186, 207, 252),
+  0 0 21px rgb(168, 198, 255),
+  0 0 42px rgb(125, 192, 255),
+  0 0 82px rgb(85, 165, 255),
+  0 0 92px rgb(0, 119, 255),
+  0 0 102px rgb(0, 162, 255),
+  0 0 151px rgb(248, 250, 255);
+}
+p {
+  text-align: center;
+  color: #fff;
+}
+.photo {
+  
+}
+.two {
+  max-width: 320px;
 
-
-.wrapper {
-    text-align: center;
+}
+.three {
+  max-width: 320px;
+}
+.four {
+  max-width: 320px;
+}
+.five {
+  max-width: 320px;
+}
+.ae {
+  max-width: 320px;
 }
