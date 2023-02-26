@@ -26,4 +26,10 @@ app.get('/shop', (request,response)=>{
 app.listen(8000,()=>{
     console.log("8000 port")
 })
+{
 
+    const bodyParser = require('body-parser');
+    
+    app.use(bodyParser.urlencoded({ extended: false }))
+    
+    }
